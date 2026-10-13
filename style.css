@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+#logo {
+    
+    display: flex;
+    align-items: center;
+}
+#d1{
+    display: flex;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+header select{
+    height: 32px;
+    width: 180px;
+    border: 2px solid #bbb;
+    border-radius: 10px;
+}
+
+header input{
+    height: 35px;
+    width: 500px;
+    border: 2px solid #bbb;
+    border-radius: 10px;
+}
+
+header button{
+    height: 35px;
+    width: 80px;
+    font-size: 16.5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+#d2{
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width : 800px) {
+    header input{
+        width: 300px;
+    }
+}
+
+
+#top-image{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow-x: scroll;
+}
+# third{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#Last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+@media (max-width : 400px){
+    header-last{
+        display: none;
+    }
+}
+
+
+    
